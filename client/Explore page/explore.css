@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255,239,221) ;
+    font-family: 'Roboto', sans-serif;
+}
+.menu-nav{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .left-icon{
+    border: 1px solid #000000;
+    border-radius:5px ;
+    
+  }
+  .library img, .setting img, .trending img{
+    width: 50px;
+    height: 50px;
+  }
+  .icon,.library,.setting,.trending{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .icon p,.library p,.setting p,.trending p{
+    padding-left:10px;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+  }
+ 
+  .menu-nav{
+    background-color:rgb(255,177,84);
+    align-items:flex-start;
+    width: 246px;
+    height: 1024px;
+    padding: 40px 60px 264px;
+    
+    
+  }
+  hr{
+    border: 1px solid white;
+    width: 124px;
+    
+  }
+  
+  .left-icon:hover{
+    background-color:rgb(5,96,250) ;
+    cursor: pointer;
+  }
+  .left-icon:focus{
+    background-color: rgb(5,96,250);
+  }
+  .menu-icon{
+    cursor: pointer;
+  }
+  .explore-page{
+    display: flex;
+   
+  }
+  .explore-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom:40px ;
+  }
+  .explore-content{
+    padding:  10px 120px 110px 38px;;
+  }
+  .search input{
+    width:446px;
+    height:40px;
+    border-radius:15px;
+    padding:5px;
+    border: 2px solid black;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400px;
+
+  }
+  .search{
+    display: flex;
+    align-items: center;
+  }
+  .header-icon{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .search-icon{
+    width: 25px;
+    height: 25px;
+    transform: translateX(-30px);
+  }
+  .romance-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 19px;
+  }
+  .romance-page img{
+    max-width: 100%;
+  }
+  figcaption{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .duration{
+    position: absolute;
+    border: 1px solid black;
+    background-color: #000000;
+    color: white;
+    margin-left:200px ;
+    transform: translateY(-30px);
+
+  }
+  .upload{
+    width: 30px;
+    height: 30px;
+  }
+  figure img{
+    max-width: 100%;
+  }
+  .harsh-tag{
+    padding-left: 19px;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 500px;
+    padding-bottom: 20px;
+  }
+  .movie-title{
+    font-size: 24px;
+    font-weight: 400px;
+
+  }
+  .made-by{
+    font-size: 16px;
+    font-weight: 400px;
+  }
+  .explore-tags,.explore-hashtags{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 10px 0;
+    
+
+  }
+  .explore-tags div{
+    border: 1px solid rgb(217,217,217);
+    background-color: rgb(217,217,217);
+    border-radius: 8px;
+    width: 220px;
+    height: 120px;
+    cursor: pointer;
+
+  }
+  .explore-hashtags div{
+    border: 1px solid rgb(217,217,217);
+    background-color: rgb(217,217,217);
+    width: 180px;
+    border-radius: 8px;
+    text-align: left;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  .explore-tags div:hover,.explore-hashtags div:hover{
+    background-color: white;
+    
+  }
+  .tags-section h2{
+    padding-top: 10px;
+  }
+  .tags-section img{
+    margin-top: 70px;
+    transform: translateX(180px);
+    border: 1px solid black;
+    padding: 1px;
+    object-fit: cover;
+    max-width: 100%;
+  }
+  .love{
+    width: 20px;
+    height: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
