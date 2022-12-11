@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+<body>
+    <button id="show-button">Verify</button>
+    <div id="container" class="pop-up-container">
+    <header>
+        <h6><i class="fa-sharp fa-solid fa-arrow-left"></i> Previous</h6>
+        <h6>Home</h6>
+    </header>
+    <main>
+        <img src="image.png" alt="image">
+        <h1>Account Verified</h1>
+        <button id="get-started">Get Started</button>
+    </main>
+</div>
+    <script>
+        let container = document.getElementById("container");
+        container.style.display = "none";
+        let showButton = document.getElementById("show-button");
+        let getStarted = document.getElementById("get-started");
+
+        showButton.addEventListener("click", () => {
+            container.style.display = "block"
+            showButton.style.display = "none"
+        })
+
+        getStarted.addEventListener("click", () => {
+            container.style.display = "none"
+            showButton.style.display = "block"
+        })
+
+    </script>
+</body>
+</html>

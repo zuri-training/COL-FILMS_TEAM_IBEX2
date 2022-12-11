@@ -14,6 +14,14 @@ body{
     flex-direction:column;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    background-color:rgb(255,177,84);
+    align-items:flex-start;
+    width: 246px;
+    height: 1024px;
+    padding: 40px 60px 264px;
+    
+    
   }
   .left-icon{
     border: 1px solid #000000;
@@ -24,7 +32,7 @@ body{
     width: 50px;
     height: 50px;
   }
-  .icon,.library,.setting,.trending{
+  .icon a,.library a,.setting a,.trending a{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -37,20 +45,13 @@ body{
     cursor: pointer;
   }
  
-  .menu-nav{
-    background-color:rgb(255,177,84);
-    align-items:flex-start;
-    width: 246px;
-    height: 1024px;
-    padding: 40px 60px 264px;
-    
-    
-  }
+ 
   hr{
     border: 1px solid white;
     width: 124px;
     
   }
+  
   
   .left-icon:hover{
     background-color:rgb(5,96,250) ;
