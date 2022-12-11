@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+.main-container{
+    display: flex;
+
+}
+.side-bar-left{
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4% 6%;
+    background-color: #FFB154;
+}
+.side-bar-left ul{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: left;
+    justify-content: center;
+    gap: 32px;
+}
+.fa-bars{
+    width: 48px;
+    height: 16px;
+    font-weight: bold;
+}
+.side-bar-left ul li{
+    border-bottom: 1px solid white;
+    display: flex;
+    margin-bottom: 5%;
+    gap: 20%;
+}
+.side-bar-left-list li i{
+    border: 1px solid black;
+    padding: 10%;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+.side-bar-left-list li{
+font-size: 14px;
+font-weight: bold;
+line-height: 20px;
+letter-spacing: 0em;
+
+}
+.side-bar-right{
+    width: 83%;
+    padding: 20px 3%;
+    background-color: #ffefdd;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    width: 173px;
+    height: 56px;
+}
+.search{
+    width: 41%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 3%;
+}
+.search input{
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+}
+.profile-flex{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.profile-section h1{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    margin-top: 122px;
+    margin-bottom: 41px;
+
+}
+.profile-section img{
+    height: 200px;
+    width: 200px;
+}
+form{
+    height: 564px;
+    width: 52%;
+    border: 1px solid #FFB154;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+}
+form p{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-top: 32px;
+}
+form input{
+    width: 90%;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid gray;
+    padding-left: 5%;
+    margin-top: 8px;
+}
+form button{
+    width: 50%;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #EC8000;
+    border: none;
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    align-self: center;
+}
+form button:hover{
+    background-color: white;
+    border: 1px solid #EC8000;
+    color: #EC8000;
+}

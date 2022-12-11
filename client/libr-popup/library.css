@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+
+}
+.side-bar-left{
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4% 6%;
+    background-color: #FFB154;
+}
+.side-bar-left ul{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: left;
+    justify-content: center;
+    gap: 32px;
+}
+.fa-bars{
+    width: 48px;
+    height: 16px;
+    font-weight: bold;
+}
+.side-bar-left ul li{
+    border-bottom: 1px solid white;
+    display: flex;
+    margin-bottom: 5%;
+    gap: 20%;
+}
+.side-bar-left-list li i{
+    border: 1px solid black;
+    padding: 10%;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+.side-bar-left-list li{
+font-size: 14px;
+font-weight: bold;
+line-height: 20px;
+letter-spacing: 0em;
+
+}
+.side-bar-right{
+    width: 83%;
+    padding: 20px 3%;
+    background-color: #ffefdd;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    width: 173px;
+    height: 56px;
+}
+.search{
+    width: 41%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 3%;
+}
+.search input{
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+}
+.history-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 4% 1% 4%;
+}
+.downloads-title, .uploads-title{
+    display: flex;
+    gap: 2%;
+    padding: 4% 4% 1% 4%;
+}
+.lib-images{
+    width: 28%;
+    height: 160px;
+}
+.history-main, .downloads-main, .uploads-main{
+
+    margin-bottom: 32px;
+}
+.history-images, .downloads-images, .uploads-images{
+    display: flex;
+    justify-content: space-around;
+
+}
+.views{
+    padding-left: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.views-section{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.flex-view{
+    width: 90%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
