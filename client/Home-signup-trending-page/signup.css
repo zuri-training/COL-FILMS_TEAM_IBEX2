@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #FFEFDD;
+}
+
+.top_container {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.guest {
+    position: absolute;
+    right: 5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.main_container {
+    display: flex;
+    padding: 0 7rem;
+    gap: 10rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sign_up_image {
+    margin-top: 3rem;
+}
+
+.signup_header {
+    text-align: center;
+    line-height: 2;
+    padding-bottom: 0.4rem;
+}
+
+.signup_header_p {
+    font-size: 24px;
+}
+
+.links_container {
+    margin-top: 1rem;
+}
+
+.signup {
+    width: 25rem;
+}
+.input {
+    margin-top: 0.6rem;
+}
+.signup_input {
+    margin-top: 0.3rem;
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.sign_up_button {
+    background-color: #EC8000;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.sign_up_button:hover {
+    cursor: pointer;
+}
+
+.sign_up_options {
+    display: flex;
+    gap: 0.6rem;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 0.5rem;
+    border: 1px solid #EC8000;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.signup_f_a {
+    margin-top: 1rem;
+}
+
+.sign_up_opt_image {
+    margin-left: 7rem;
+}
+.line_text {
+    text-align: center;
+    margin: 0.5rem 2px;
+    position: relative;;
+}
+
+.line_text::before {
+    content: "";
+    display: block;
+    width: 180px;
+    height: 1px;
+    background-color: gray;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+
+.line_text::after {
+    content: "";
+    display: block;
+    width: 180px;
+    height: 1px;
+    background-color: gray;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
+
+.existing_acct {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    text-align: center;
+}
+.log_in {
+    text-decoration: none;
+}

@@ -1,0 +1,25 @@
+.trending_container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 998px;
+    padding-left: 0.7rem;
+    padding-bottom: 0.5rem;
+}
+
+.new_container {
+    position: absolute;
+    right: 0;
+}
+
+.new_link {
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: black;
+   font-size: 16px;
+}
+
+.new {
+    padding-left: 0.5rem;
+}

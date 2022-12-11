@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFEFDD;
+}
+a {
+    text-decoration: none;
+}
+
+.menu_navigation {
+    width: 246px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FFB154;
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+    box-shadow: 1px 1px 2px gray;
+    font-size: 14px;
+}
+
+.menu_bar_container {
+    margin-bottom: 1rem;
+}
+
+.menu_item {
+    width: 43%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: black;
+    padding-top: 1.9rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid white;
+}
+.menu_icon {
+    border: 1.9px solid black;
+    border-radius: 10px;
+    padding: 0.4rem 0.3rem;
+
+}
+.menu_icon:active {
+    background-color: #0560FA;
+}
+.trend_icon {
+    padding: 0.5rem 0.4rem;
+}
+.menu_word:active {
+    color: #0560FA;
+}
+
+.main {
+    margin-left: 246px;
+    padding-top: 1rem;
+    padding-left: 4rem;
+}
+
+.top_container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-bottom: 3rem;
+}
+.search_input {
+    outline: none;
+    border: none;
+    padding-right: 10rem;
+    font-size: 16px;
+}
+
+.search_box {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 50px;
+    padding: 0 1.2rem 0;
+    margin-left: 4rem;
+}
+
+.top_left_container {
+    position: absolute;
+    right: 2rem;
+}
+
+.top_left_icon {
+    margin-left: 0.7rem;
+}
+
+.image1 {
+    padding-left: 1rem;
+}
+
+.middle_container_info {
+    display: flex;
+    position: relative;
+    padding-top:0.5rem;
+    padding-bottom: 4rem;
+}
+
+.middle_video_title_stats {
+    padding-left: 1rem;
+    line-height: 1.5;
+}
+.middle_video_title {
+    font-size: 28px;
+}
+.middle_video_stats {
+    font-size: 14px;
+}
+.video_action_icons_container {
+    display: flex;
+    position: absolute;
+    right: 2.7rem;
+}
+.video_action {
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.action {
+    font-size: 10px;
+    text-align: left;
+}
+
+.bottom_container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    width: 1000px;
+    padding-left: 1rem;
+    padding-bottom: 0.7rem;
+}
+
+.bottom_container_info {
+    display: flex;
+    gap:6rem;
+    padding-top: 0.7rem;
+    position: relative;
+}
+.bottom_video_title_stats {
+   line-height: 1.5;
+}
+
+.bottom_video_title {
+    font-size: 17px;
+}
+
+.bottom_video_stats {
+    font-size: 12px;
+}
+
+.bottom_video_action_icons_container {
+    position: absolute;
+    right: 0;
+}
+
+.download {
+    padding-left: 0.7rem;
+
+}
+
+
