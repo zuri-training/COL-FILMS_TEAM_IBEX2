@@ -14,7 +14,7 @@ General user (unuthenticated) can only view videls but can't interact with the p
 - [Modalities](#modalities)
 - [Niche](#niche)
 - [Links](#links)
-- [Technologies Used](#technologies-used)
+- [Technologies Used](#Technology-Used)
 
 > ## Project Scope
 
@@ -56,7 +56,7 @@ Entertainment
 - <a href="#"> Design Sketch</a>
 - <a href="#">Final Design</a>
 
-> ## Technology Used
+> ## Technologies Used
 - HTML and CSS
 - Javascript 
 - Figma
