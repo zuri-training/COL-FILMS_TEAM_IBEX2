@@ -52,9 +52,9 @@ Entertainment
 
 ### Links
 
-<a href="#">User Research</a>
-<a href="#"> Design SketchFigma</a>
-<a href="#">Final Design</a>
+- <a href="#">User Research</a>
+- <a href="#"> Design SketchFigma</a>
+- <a href="#">Final Design</a>
 
 ## Technology Used
 - HTML and CSS
