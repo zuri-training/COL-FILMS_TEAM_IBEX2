@@ -14,7 +14,7 @@ General user (unuthenticated) can only view videls but can't interact with the p
 - [Modalities](#modalities)
 - [Niche](#niche)
 - [Links](#links)
-- [Technologies Used](#Technology-Used)
+- [Technologies Used](#Technologies-Used)
 
 > ## Project Scope
 
