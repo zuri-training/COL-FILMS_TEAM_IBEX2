@@ -11,9 +11,9 @@ General user (unuthenticated) can only view videls but can't interact with the p
 
 - [Project Scope](#project-scope)
 - [Problem Statement](#problem-statement)
-  - [Modalities](#modalities)
-  - [Niche](#niche)
-  - [Links](#links)
+- [Modalities](#modalities)
+- [Niche](#niche)
+- [Links](#links)
 - [Technologies Used](#technologies-used)
 
 ## Project Scope
