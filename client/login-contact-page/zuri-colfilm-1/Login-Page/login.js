@@ -5,7 +5,7 @@ var username = document.getElementById("email").value;
 var password = document.getElementById("password").value;
 if ( username == "Formget" && password == "formget#123"){
 alert ("Login successfully");
-window.location = "/COL-FILMS_TEAM_IBEX2/client/Home-Signup-Trending pages/homepage1.html"; // Redirecting to other page.
+window.location = "homepage1.html"; // Redirecting to other page.
 return false;
 }
 else{

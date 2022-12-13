@@ -136,6 +136,13 @@ p {
   text-align: center;
   margin: 2rem 4rem;
 }
+.forward-arrow, .back-arrow{
+  border: none;
+  background-color: inherit;
+  max-width: 100%;
+ transform: translateY(300px);
+ 
+}
 .posters img, .footer img {
   max-width: 100%;
   object-fit: cover;

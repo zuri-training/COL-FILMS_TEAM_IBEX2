@@ -19,13 +19,28 @@ body{
     align-items:flex-start;
     width: 246px;
     height: 1024px;
-    padding: 40px 60px 264px;
-    
+    padding: 50px 60px 264px;
+    visibility: hidden;
+    box-shadow: 1px 1px 2px gray;
     
   }
+  .menu-nav .active{
+    visibility: visible;
+  }
+.hamburger-menu{
+  border:none;
+  background-color: inherit;
+  z-index: 1;
+  position: absolute;
+  cursor: pointer;
+  padding-top: 2px;
+  padding-left: 60px;
+}
+
   .left-icon{
     border: 1px solid #000000;
     border-radius:5px ;
+    margin:15px 0 ;
     
   }
   .library img, .setting img, .trending img{
