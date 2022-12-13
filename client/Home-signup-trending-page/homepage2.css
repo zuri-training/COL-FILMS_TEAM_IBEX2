@@ -167,3 +167,9 @@ a {
 }
 
 
+/*download button styling*/
+.download-button{
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}

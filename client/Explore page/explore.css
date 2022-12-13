@@ -213,4 +213,8 @@ body{
     text-decoration: none;
     color: black;
   }
-  
+  .download-btn{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+  }

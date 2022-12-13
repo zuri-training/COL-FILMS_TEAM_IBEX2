@@ -105,4 +105,9 @@ body, html {
     width: 13rem;
     background-color: #D9D9D9;
 }
-
+/*download button styling*/
+.download-button{
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
