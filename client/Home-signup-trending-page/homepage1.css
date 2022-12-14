@@ -66,3 +66,7 @@
 .download {
     padding-left: 0.7rem;
 }
+.download-btn{
+    border: none;
+    background-color: transparent;
+}

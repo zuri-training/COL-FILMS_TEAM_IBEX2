@@ -6,24 +6,39 @@
 }
 .main-container{
     display: flex;
+    background-color: #ffefdd;
 
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 32px;
 }
 .side-bar-left{
     width: 17%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4% 6%;
+    padding: 1% 6%;
     background-color: #FFB154;
 }
 .side-bar-left ul{
-    margin-top: 32px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     list-style: none;
     align-items: left;
     justify-content: center;
     gap: 32px;
+}.fa-solids{
+    font-size: 60px;
+}
+.fa-solidz{
+    font-size: 36px;
 }
 .fa-bars{
     width: 48px;
@@ -73,6 +88,10 @@ letter-spacing: 0em;
     align-items: center;
     background-color: white;
     padding: 0 3%;
+}
+.top-menu{
+    display: flex;
+    gap: 10%;
 }
 .search input{
     width: 80%;

@@ -13,22 +13,48 @@ a {
 }
 
 .menu_navigation {
+    position: absolute;
+    /* display: none;
     width: 246px;
     height: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #FFB154;
+    
     padding-top: 2.5rem;
     padding-left: 2rem;
-    box-shadow: 1px 1px 2px gray;
-    font-size: 14px;
+    
+    font-size: 14px; */
 }
 
 .menu_bar_container {
     margin-bottom: 1rem;
 }
+.dropbtn {
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+    z-index: 1;
+    background: none;
+    border:none;
+    cursor: pointer;
+}
 
+.dropdown-content {
+    display: none;
+    background-color: #FFB154;
+    box-shadow: 1px 1px 2px gray;
+    width: 246px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 6rem;
+    padding-left: 3rem;
+    font-size: 14px;
+}
+
+.show {display:block;}
 .menu_item {
     width: 43%;
     display: flex;
@@ -41,12 +67,13 @@ a {
 }
 .menu_icon {
     border: 1.9px solid black;
-    border-radius: 10px;
-    padding: 0.4rem 0.3rem;
+    border-radius: 5px;
+    padding: 0.1rem;
 
 }
 .menu_icon:active {
     background-color: #0560FA;
+    fill: white;
 }
 .trend_icon {
     padding: 0.5rem 0.4rem;
@@ -165,11 +192,7 @@ a {
     padding-left: 0.7rem;
 
 }
-
-
-/*download button styling*/
-.download-button{
-    background-color: inherit;
+.download-btn{
     border: none;
-    cursor: pointer;
+    background-color: transparent;
 }
