@@ -276,7 +276,7 @@ li a{
   outline: none;
   position: absolute;
   z-index: 1;
-  transform: translateY(-5rem);
+  transform: translateY(-6rem);
   display: none;
   padding: 10px;
 
