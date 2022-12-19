@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="signup.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script type="module" src="./signup.js" defer></script>
 </head>
 <body>
     <div class="top_container">
@@ -24,23 +25,23 @@
                 <p>Let's get you started.</p>
             </div>
             <div class="links_container">
-                <form action="/Home-signup-trending-page/homepage1.html">
+                <form id="register" action="http://localhost:6200/api/auth/register">
                     <div class="input">
-                        <label class="input_label" for="full name">Full Name</label>
+                        <label class="input_label" for="username">Full Name</label>
                         <br>
-                        <input class="signup_input signup" type="text" placeholder="first and last name" required>
+                        <input id="username" class="signup_input signup" type="text" placeholder="first and last name" required>
                     </div>
                     <div class="input">
                         <label class="input_label" for="email">Email</label>
                         <br>
-                        <input class="signup_input signup" type="email" placeholder="user@sample.com" required>
+                        <input id="email" class="signup_input signup" type="email" placeholder="user@sample.com" required>
                     </div>
                     <div class="input">
                         <label class="input_label" for="password">Password</label>
                         <br>
-                        <input class="signup_input signup" type="password" placeholder="********" required>
+                        <input id="password" class="signup_input signup" type="password" placeholder="********" required>
                     </div>
-                    <button class="sign_up_button signup" type="submit">Sign up</button>
+                    <button name="register" class="sign_up_button signup btn btn-success" type="submit">Sign up</button>
                 </form>
                 <div class="line_division">
                     <p class="line_text">or</p>
